@@ -19,7 +19,7 @@ export const NavigationRoutes = ({
       {MainRoutes.map((route) => (
         <NavLink
           key={route.href}
-          to={route.href}
+          to={route.href || "/"}
           className={({ isActive }) =>
             cn(
               "text-base text-white hover:scale-110 transform transition-all",
