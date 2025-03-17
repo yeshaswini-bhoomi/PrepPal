@@ -5,11 +5,14 @@ export const MainRoutes = [
     },
     {
       label: "Contact Us",
+      href: "/",
     },
     {
-      label: "About Us"
+      label: "About Us",
+      href: "/",
     },
     {
-      label: "Services"
+      label: "Services",
+      href: "/",
     },
   ];
